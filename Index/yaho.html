@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YahooMailFake</title>
+	<style>
+		
+		
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-image: url(./imagens/gatito.jpg);
+			background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 150vh;
+            padding-bottom: 20px;
+		}
+
+		header {
+			background-color: #ffffff;
+			padding: 14px;
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+		}
+
+		header img {
+			height: 40px;
+		}
+
+#signup {
+  background-color: #ffffff;
+  padding: 40px;
+  position: absolute;
+  top: 200px;
+  right: 100px;
+  width: 400px;
+  height: 550px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+#signup h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#signup p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+#signup input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #0070c0;
+  font-size: 16px;
+  color: #333333;
+  background-color: transparent;
+}
+
+#signup button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: rgb(126, 126, 255);
+  color: #ffffff;
+  border: none;
+  border-radius: 20px; /* Adicionado para bordas arredondadas */
+  font-size: 16px;
+  cursor: pointer;
+}
+#signup button:hover {
+  background-color: #7575ff; /* Cor de fundo do botão quando o mouse passa sobre ele */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); /* Sombra ao redor do botão */
+}
+
+#signup a {
+  color: #0070c0;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #fffbfb;
+  color: #030303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #0070c0;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+		footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #fffbfb;
+  color: #030303;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<img src="./imagens/yahoo.jpg">
+	  </header>
+
+	<div id="signup">
+		<img src="./imagens/yahoo.jpg" class="logo">
+		<style>
+			.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 120px;
+}
+
+		</style>
+		<h2 style="text-align:center;">Entrar</h2>
+		<p style="text-align:center;">usando sua conta no Yahoo</p>
+		<input type="email" placeholder="Nome de usuário, email ou celular">
+		<button><a href="yahoo.html" style="color:white;">Avançar</a></button>
+
+		<style>
+		  .transparent {
+			background-color: transparent !important;
+			border: 1px solid rgb(126, 126, 255) !important;
+			color: rgb(0, 0, 0) !important;
+		  }
+	  
+		</style>
+		<p class="conectado"><a style="color:rgb(126, 126, 255)" href="#">Ficar conectado</a></p>
+		<p style="text-align: center;">
+		  <a style="color:rgb(126, 126, 255); display: inline-block" href="#">Esqueceu o nome de usuário?</a>
+		</p>
+		<button class="transparent">Criar conta</button>
+	  </div>
+
+	  <style>
+		.conectado a::before {
+		  content: "";
+		  display: inline-block;
+		  width: 10px;
+		  height: 10px;
+		  margin-right: 5px;
+		  border: 1px solid black;
+		  border-radius: 2px;
+		}
+	  </style>
+
+	<footer>
+		<p><a href="#">Termos</a> | <a href="#">Privacidade</a></p>
+	</footer>
+	<style>
+		
+
+  footer a {
+    color: blue;
+    text-decoration: underline;
+  }
+
+</style>
+</body>
+</html>
+
